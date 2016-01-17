@@ -10,6 +10,7 @@ b) Web side: This module consists on a pretty simple LAMP solution involving a P
 # GPIO Manager
 
 This module has a basic logger, and two different threats:
+
 a) Server Manager Thread: inits the IPC with PHP. This threat waits for server queries: "ON" (Turn on the relay),
 "OFF" (Turn off the relay), "STATUS" (Returns the GPIO status).
 
