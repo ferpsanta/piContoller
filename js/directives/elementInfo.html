@@ -1,0 +1,14 @@
+<div class="media">
+	<div class="media-left media-middle">
+	  <a href="#" ng-click="changeState()">
+		<img class="media-object" ng-src="{{info.icon}}" alt="icon">
+	  </a>
+	</div>
+	  <div class="media-body">
+		<h3 class="media-heading">{{info.name}}</h3>
+		<div class="form-group">
+		  <h5>{{state}}: <small><span id="elementStatus" ng-class="{'label label-danger': info.state == 'OFF', 'label label-success': info.state == 'ON'}" > {{info.state}} </span></small></h5>
+		  <h5>{{site}}: <small>{{info.site}}</small></h5>
+		</div>
+	  </div>
+</div>
